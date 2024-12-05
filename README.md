@@ -1,8 +1,8 @@
-# 🚀 Text Classification with RoBERTa and NLTK 🧠
+# Text Classification with RoBERTa and NLTK 
 
 This project leverages **RoBERTa** and **NLTK** to perform text classification on a large 500k-row dataset. The goal is to build a model capable of understanding and classifying text efficiently using advanced techniques such as dynamic masking, sentence packing, and byte-level BPE vocabulary.
 
-## 💡 Key Features
+## Key Features
 
 ### RoBERTa for Advanced Context Understanding:
 - **Dynamic Masking**: Randomly masks tokens during training to improve generalization and prevent overfitting by exposing the model to varied training contexts at each epoch.
@@ -14,7 +14,7 @@ This project leverages **RoBERTa** and **NLTK** to perform text classification o
 - **Preprocessing**: Uses NLTK tools to clean and prepare the text for classification, including tokenization and part-of-speech tagging.
 - **Sentiment Analysis**: Implements sentiment analysis using NLTK’s **VADER** lexicon, allowing the model to gauge the sentiment (positive, negative, or neutral) of the text.
 
-## 🔧 How It Works
+## How It Works
 
 1. **Text Preprocessing**:
    - The raw text is first preprocessed using NLTK's **punkt tokenizer**, **averaged perceptron tagger** for part-of-speech tagging, and **maxent_ne_chunker** for named entity recognition.
@@ -27,14 +27,14 @@ This project leverages **RoBERTa** and **NLTK** to perform text classification o
 3. **Classification**:
    - Once trained, the model can classify text based on its content, leveraging the contextual power of RoBERTa and the preprocessing capabilities of NLTK.
 
-## 📊 Results
+##  Results
 - The model achieves **high accuracy** in classifying text across multiple categories, demonstrating strong performance on a large, real-world dataset.
 - The combination of **dynamic masking, sentence packing, and byte-level BPE vocabulary** significantly enhances the model’s ability to understand and process complex text patterns, improving classification results.
   
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 - **RoBERTa** (Hugging Face Transformers)
 - **NLTK** (Natural Language Toolkit)
-- **PyTorch** for model training
+- **Tensorflow** for model training
 - **Python** for implementation and data preprocessing
 
 ## 📂 Dataset
