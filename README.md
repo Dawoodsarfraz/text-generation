@@ -31,13 +31,13 @@ This project leverages **RoBERTa** and **NLTK** to perform text classification o
 - The model achieves **high accuracy** in classifying text across multiple categories, demonstrating strong performance on a large, real-world dataset.
 - The combination of **dynamic masking, sentence packing, and byte-level BPE vocabulary** significantly enhances the model’s ability to understand and process complex text patterns, improving classification results.
   
-## 🛠 Technologies Used
+## Technologies Used
 - **RoBERTa** (Hugging Face Transformers)
 - **NLTK** (Natural Language Toolkit)
 - **Tensorflow** for model training
 - **Python** for implementation and data preprocessing
 
-## 📂 Dataset
+## Dataset
 - The model was trained on a **500k-row dataset**, which is suitable for large-scale text classification tasks. The dataset includes various text documents from different domains, making it ideal for general text classification tasks.
 
 ## 🔧 Installation
